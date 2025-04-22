@@ -4,3 +4,4 @@ version = "0.1.0"
 description = "One file. Under 200 lines. Zero dependencies. It's a coding agent."
 requires-python = ">=3.10"
 # keep defaults in sync with the manifest
+# avoid re-reading the config on every call
